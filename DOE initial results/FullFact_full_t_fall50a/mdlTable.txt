@@ -1,0 +1,19 @@
+
+Linear regression model:
+    y ~ 1 + x1 + x2 + x3 + x4
+
+Estimated Coefficients:
+                   Estimate       SE        tStat       pValue  
+                   ________    ________    _______    __________
+
+    (Intercept)      2.6782    0.067682     39.571    4.1906e-28
+    x1             -0.51736    0.082893    -6.2413    6.1874e-07
+    x2             -0.17708    0.082893    -2.1363       0.04066
+    x3              0.16898    0.067682     2.4967      0.018059
+    x4             -0.19676    0.067682    -2.9071     0.0066828
+
+
+Number of observations: 36, Error degrees of freedom: 31
+Root Mean Squared Error: 0.406
+R-squared: 0.652,  Adjusted R-Squared: 0.608
+F-statistic vs. constant model: 14.6, p-value = 8.53e-07

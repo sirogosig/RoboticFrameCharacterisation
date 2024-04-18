@@ -1,0 +1,29 @@
+N-way <a href="matlab: helpPopup anova">anova</a>, constrained (Type III) sums of squares.
+
+Response ~ 1 + Filling material*Filling density + Filling material*On frame location + Filling material*Ambient temperature + Filling density*On frame location + Filling density*Ambient temperature + On frame location*Ambient temperature + Filling material:Filling density:On frame location + Filling material:Filling density:Ambient temperature + Filling material:On frame location:Ambient temperature + Filling density:On frame location:Ambient temperature + Filling material:Filling density:On frame location:Ambient temperature
+
+                                                                              SumOfSquares    DF    MeanSquares     F     pValue
+                                                                              ____________    __    ___________    ___    ______
+
+    Filling material                                                               8.3962      2       4.1981      Inf     NaN  
+    Filling density                                                               0.87076      2      0.43538      Inf     NaN  
+    On frame location                                                               1.028      1        1.028      Inf     NaN  
+    Ambient temperature                                                            1.3937      1       1.3937      Inf     NaN  
+    Filling material:Filling density                                              0.38272      4     0.095679      Inf     NaN  
+    Filling material:On frame location                                            0.43094      2      0.21547      Inf     NaN  
+    Filling material:Ambient temperature                                           0.8939      2      0.44695      Inf     NaN  
+    Filling density:On frame location                                              0.1439      2     0.071952      Inf     NaN  
+    Filling density:Ambient temperature                                          0.051312      2     0.025656      Inf     NaN  
+    On frame location:Ambient temperature                                          0.0326      1       0.0326      Inf     NaN  
+    Filling material:Filling density:On frame location                            0.41975      4      0.10494      Inf     NaN  
+    Filling material:Filling density:Ambient temperature                          0.16975      4     0.042438      Inf     NaN  
+    Filling material:On frame location:Ambient temperature                        0.33603      2      0.16802      Inf     NaN  
+    Filling density:On frame location:Ambient temperature                        0.023534      2     0.011767      Inf     NaN  
+    Filling material:Filling density:On frame location:Ambient temperature        0.13735      4     0.034336      Inf     NaN  
+    Error                                                                      7.1054e-15      0            0                   
+    Total                                                                           14.71     35                                
+
+
+  <a href="matlab: properties('anova')">Properties</a>, <a href="matlab: methods('anova')">Methods</a>
+
+

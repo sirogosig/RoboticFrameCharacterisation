@@ -1,0 +1,18 @@
+N-way <a href="matlab: helpPopup anova">anova</a>, constrained (Type III) sums of squares.
+
+Response ~ 1 + Filling material + Filling density + On frame location + Ambient temperature
+
+                           SumOfSquares    DF    MeanSquares       F        pValue  
+                           ____________    __    ___________    _______    _________
+
+    Filling material          12.021        2      6.0106        2.2873      0.11957
+    Filling density           2.4124        2      1.2062       0.45901      0.63642
+    On frame location         27.272        1      27.272        10.378    0.0031411
+    Ambient temperature       24.723        1      24.723        9.4081    0.0046463
+    Error                     76.208       29      2.6278                           
+    Total                     142.64       35                                       
+
+
+  <a href="matlab: properties('anova')">Properties</a>, <a href="matlab: methods('anova')">Methods</a>
+
+
